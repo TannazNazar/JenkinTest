@@ -11,5 +11,11 @@ public class SampleTest {
 		System.out.println("This is simple Test");
 		Assert.assertTrue(true);
 	}
+	@Test
+	public void acoount() {
+	
+		System.out.println("This is my checking account");
+		Assert.assertTrue(false);
+	}
 
 }
